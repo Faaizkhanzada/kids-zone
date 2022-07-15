@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+ 
+
+/* home styling  */
+
+.navbar{
+    background-color: rgba(50, 14, 255,0.8)!important;
+}
+.navbar .nav-link {
+    color: white!important;
+}
+.text-color{
+    color:rgba(50, 14, 255,1)!important ;
+}
+#carouselExampleIndicators{
+    z-index: -1;
+}
+.white-text{
+    color: white!important;
+}
+
+.para1{
+    margin-top:-35px
+}
+.bg{
+    background-color: rgba(50, 14, 255,1);
+    height: 200px;
+    margin-top: 50px;
+}
+.bgh1{
+    color: white;
+    margin-left:9%;
+    padding-top: 50px;
+    font-family: 'Fredoka One';
+}
+.para2{
+    color: white;
+}
+
+.heading1{
+    text-align:center;
+    font-family: 'Fredoka One';
+    font-size: 40px;
+    color: #320eef;
+    font-family: 'Fredoka One';
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-width: 3px;   
+}
+.heading2{
+    font-family: 'Lobster';
+    color: black;
+    text-align:center;
+    color:#FF127f;
+    
+}
+.parah1{
+    color: #ff12ff;
+    font-size: 25px;
+    font-family: 'Macondo', cursive;
+    -webkit-text-stroke-width:1px;
+}
+.btn1{
+    padding:8px;
+     border-top-left-radius:15px;
+     border-bottom-right-radius:15px;
+}
+.infoh4 .info1 .info2 .info3 h4{
+    font-weight: 500;
+    font-family: 'Permanent Marker';
+}
+.infoh4 .info1 .infod .info3 h4{
+    font-family: 'Permanent Marker';
+}
+.infoh4 .info1 .infod .info3{
+    margin-right: 100%;
+}
+
+/* about us styling */
+
+
+.aboutpic{
+    margin-top: 100px;
+}
+.mheading{
+    text-align: center;
+    font-family: 'Alfa Slab One';
+    color: #320eef;
+}
+.aboutpara2{
+    margin-top: 140px;
+}
+.teacherinfo{
+    text-align: center;
+}
+.teacherinfo h1{
+    font-family: 'Koulen';
+    font-weight: bolder;   
+}
+.teacherinfo h4{
+    font-family: 'Marck Script';
+    font-weight: 100;
+}
+.teachers{
+    text-align: center;
+}
+.teachers img{
+    clip-path: circle();
+    
+}
+.teachers .row img #h5{
+    font-family: 'Marck Script';
+}
+
+/* gallery */
+
+.row1{
+    margin-top: 130px;
+}
+.image .zoomin img{
+    transform: scale(1);
+    transition:0.3 ease-in-out;
+}
+.image .zoomin:hover img{
+    transform: scale(1.1);
+}
+
+/* contact us css */
+
+.contact-us {
+    margin-top: 100px;
+    padding: 70px 0px;
+    background:black;
+}
+.section-title h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px solid #af8070;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.section-title p {
+    color: #e8e8e8;
+    margin-bottom: 30px;
+}
+.contact-us input,
+.contact-us textarea {
+    background: #fafafa;
+}
+.contact-us textarea {
+    min-height: 188px;
+    max-width: 100%;
+}
+.contact-us .map {
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+/* footer */
+
+.footericonline{
+    background-color:rgba(0,0,0,0.6) ;
+}
+.footercenter{
+    background-color: rgba(0,0,0,0.1);
+    margin-top: -14px;
+    padding-top: 25px;
+}
+/* alphabet */
+.alphabet1{
+    margin-top: 110px;
+    
+}
+/* counting */
+.count{
+    background-image: url(./images/counting/Count\ to\ 40.png);
+    background-size: cover;
+    background-attachment: relative;
+    background-position:center;
+    height: 100vh;
+}
+
+.rrrow1{
+    margin-top: 110px;
+}
+.firstimg{
+    margin-top: 110px;
+}
+
+
+/* Tables */
+
+.tables{
+    background-image: url(./images/tables/Tables\ background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+/* colors */
+
+.firstrow{
+    margin-top: 120px;
+}
+
+/* animals */
+
+.fristrow{
+    margin-top:110px;
+}
+
+/* rhymes */
+
+.rfristrow{
+    margin-top: 140px;
+}
+.rrow1 .zoomin img{
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+}
+.rrow1 .zoomin:hover img{
+    transform: scale(1.1);
+}
+.bg-cal{
+    background-color:#54AAFF !important;
+    border: 2px solid black;
+  
+}
